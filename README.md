@@ -27,7 +27,7 @@ O projeto foi construído utilizando as seguintes tecnologias:
 ### Interface Principal
 <p align="center">
   <kbd>
-    <img src="Imagens/tela-home.png" alt="Home" width="600">
+    <img src=".Imagens/tela-home.png" alt="Home" width="600">
   </kbd>
   <br><em>Tela Home</em>
 </p>
@@ -39,13 +39,13 @@ O projeto foi construído utilizando as seguintes tecnologias:
   <summary>Clique para ver as telas de conteúdo (Estilos, Tecidos, etc.)</summary>
 
   #### Estilos
-  ![Estilos](Imagens/tela-estilos.png)
+  ![Estilos](.Imagens/tela-estilos.png)
   #### Tecidos
-  ![Tecidos](Imagens/tela-tecidos.png)
+  ![Tecidos](.Imagens/tela-tecidos.png)
   #### Sustentabilidade
-  ![Sustentabilidade](Imagens/tela-sustentabilidade.png)
+  ![Sustentabilidade](.Imagens/tela-sustentabilidade.png)
   #### Informações
-  ![Info](Imagens/tela-info.png)
+  ![Info](.Imagens/tela-info.png)
 </details>
 
 ### Área do Usuário e Planos
@@ -53,13 +53,13 @@ O projeto foi construído utilizando as seguintes tecnologias:
   <summary>Clique para ver Telas de Login, Cadastro e Planos</summary>
 
   #### Planos de Consultoria
-  ![Planos](Imagens/tela-planos.png)
+  ![Planos](.Imagens/tela-planos.png)
   #### Login
-  ![Login](Imagens/tela-login.png)
+  ![Login](.Imagens/tela-login.png)
   #### Cadastro
-  ![Cadastro](Imagens/tela-cadastro.png)
+  ![Cadastro](.Imagens/tela-cadastro.png)
   #### Recuperar Senha
-  ![Recuperar Senha](Imagens/tela-recuperar-senha.png)
+  ![Recuperar Senha](.Imagens/tela-recuperar-senha.png)
   #### Perfil do Usuário
-  ![Perfil](Imagens/tela-perfil.png)
+  ![Perfil](.Imagens/tela-perfil.png)
 </details>
