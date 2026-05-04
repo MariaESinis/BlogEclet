@@ -1,0 +1,736 @@
+@import url(https://fonts.googleapis.com/css2?family=Tenor+Sans&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Questrial&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Nunito:wght@100;200;300;400;500;600;800;900&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;300;400;500;600;800;900&display=swap);
+
+
+.overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+}
+
+.modal {
+    background-color: #fff;
+    border-radius: 5px;
+    width: 300px;
+    padding: 20px;
+    position: relative;
+    text-align: center;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+}
+
+.close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.aviso {
+    font-weight: bold;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+/*Fontes:
+Tenor Sans
+Questrial
+Nunito
+
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    
+    }
+*::-webkit-scrollbar{
+    display: none;
+} 
+/*HEADER */
+.header{
+    width: 100%;
+    height: 30px;
+    background-color: rgb(24, 23, 23);
+}
+.texto_header{
+    padding-top: 7px;
+    color: white;
+    text-align: center;
+    font-size: 15px;
+    font-family: 'Questrial', sans-serif;
+ 
+}
+.ancora_header{
+    color: white;
+    text-decoration: underline;   
+}
+
+/* MENU */
+.menu{
+    position: relative;
+    width: 99%;
+    height: 20%;
+    margin-left: 9px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+}
+.imagem_logo{
+    width: 40%;
+    height: 100%;
+    margin-left: 21%;
+    position: relative;
+    margin-top: -15px ;
+}
+.login{
+    margin-left: 20%;
+}
+.ancora_login{
+    color: rgb(160, 156, 156);
+    text-decoration: none;
+    display: flex; /* Para colocar os elementos em linha */
+    align-items: center; 
+}
+
+.texto_login{
+    font-family: 'Questrial', sans-serif;
+}
+
+.pesquisa{
+    margin-left: -4%;
+}
+.ancora_pesquisa{
+    color: rgb(160, 156, 156);
+    text-decoration: none;
+    display: flex; 
+    align-items: center; 
+    
+}
+.linha-fina {
+    position: relative;
+   
+    width: 64%; 
+    height: 1px; 
+    background-color: rgb(192, 185, 185); 
+    margin: -20px auto 20px auto; 
+    
+}
+
+/*CATEGORIAS MENU */
+.menu2{
+    position:relative;
+    width: 99%;
+    height: 40px;
+    margin-left: 9px;
+    background-color:  rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+}
+
+.configurar_categorias{
+    width: 99%;
+    margin-left:32%;
+    display: flex;
+}
+.Estilos{
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    color: rgb(160, 156, 156);
+    font-family: 'Nunito', sans-serif;
+    margin-left: -1%;
+    
+}
+.Tecidos{
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    color: rgb(160, 156, 156);
+    font-family: 'Nunito', sans-serif;
+    margin-left: 5%;
+    
+}
+.Planos{
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    color: rgb(160, 156, 156);
+    font-family: 'Nunito', sans-serif;
+    margin-left: 5%;
+    
+}
+.SobNos{
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    color: rgb(160, 156, 156);
+    font-family: 'Nunito', sans-serif;
+    margin-left: 5%;
+    
+}
+.Susten{
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    color: rgb(160, 156, 156);
+    font-family: 'Nunito', sans-serif;
+    margin-left: 5%;    
+}
+.Estilos:hover {
+    width: 5.2%;
+    height: 81px;
+    color: rgb(110, 150, 118);
+    background-color:rgb(245, 255, 247) ;
+    border-top: 2px solid #769476;
+  }
+.Tecidos:hover{
+    width: 5.%;
+    height: 81px;
+    color: rgb(110, 150, 118);
+    background-color:rgb(245, 255, 247) ;
+    border-top: 2px solid #769476;
+}
+.Planos:hover{
+    width: 5.5%;
+    height: 81px;
+    color: rgb(110, 150, 118);
+    background-color:rgb(245, 255, 247) ;
+    border-top: 2px solid #769476;
+}
+.SobNos:hover{
+    width: 7.5%;
+    height: 81px;
+    color: rgb(110, 150, 118);
+    background-color:rgb(245, 255, 247) ;
+    border-top: 2px solid #769476;
+}
+.Susten:hover{
+    width: 12%;
+    height: 81px;
+    color: rgb(110, 150, 118);
+    background-color:rgb(245, 255, 247) ;
+    border-top: 2px solid #769476;
+}
+
+/* Style The Dropdown Button */
+.dropbtn {
+    height: 80px;
+    width: 60px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    background-color: #fff;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    color: rgb(160, 156, 156);
+    font-family: 'Nunito', sans-serif;
+    font-size: 100%;
+    margin-left: 5%;
+  }
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+    background-color: white;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    top: 70%;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {background-color: #f1f1f1}
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+  .dropdown:hover .dropbtn {
+    color: rgb(110, 150, 118);
+    background-color:rgb(245, 255, 247) ;
+    border-top: 2px solid #769476;
+    width: 100%;
+  }
+
+
+
+.ancora_footer{
+    text-decoration: none;
+    color: white;
+}
+.footer-texto-2{
+    
+    bottom: 0;
+    width: 100%;
+    height: 9%;
+    background-color:rgb(14, 13, 13);
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    font-family:'Tenor Sans', sans-serif
+}
+ /*Div onde está o carousel*/
+
+ .container{
+
+    position: relative;
+
+    padding: 15px;
+
+    max-width: 95%; /*Define o tamanho máximo*/
+
+    margin: 0 auto;
+
+    display: flex;
+
+}
+
+/*Div da barrinha de rolagem do carousel*/
+
+.galerry-wrapper{
+
+    overflow-x: auto; /*Fala que se passar do mas-width setado, a barrinha de rolagem fica embaixo dos elementos*/
+
+}
+
+/*Formata as setas*/
+
+.arrow-left,.arrow-right{            
+
+    position: absolute;
+
+    top: 0;
+
+    left: 0;
+
+    right: auto;
+
+    bottom: 0;
+
+    font-size: 60px;/*Aumenta o tamanho das setas*/
+
+    line-height: 250px;
+
+    text-align: center;
+
+    color: #000;
+
+    cursor: pointer;
+
+    border: none; /*Tira a borda*/
+
+    background-color: transparent; /*Tira o fundo*/
+    
+ 
+
+}
+
+.arrow-left{
+
+    width: 40px;
+    height: 512px;
+    margin-left: 0%;
+    margin-top: 0.8%;
+
+}
+
+/*Formata a seta da direita*/
+
+.arrow-right{
+
+    left: auto;
+    height: 512px;
+    right: 0;
+    margin-top: 0.8%;
+    width: 40px;
+
+   
+
+}
+
+/*Formata as setas quando se passa o mouse por cima*/
+
+.arrow-left:hover{
+   
+    transition: 0.5s;/*Faz a seta aparecer mais lentamente*/
+    color: rgb(102, 102, 102);
+    opacity: 0.9;/*Volta a opacidade das setas ao original*/
+    background: linear-gradient(to left, transparent 5%, black 200%);
+
+}
+.arrow-right:hover{
+    
+    transition: 0.5s;/*Faz a seta aparecer mais lentamente*/
+    color: rgb(102, 102, 102);
+    opacity: 0.9;/*Volta a opacidade das setas ao original*/
+    background: linear-gradient(to right, transparent 0%, black 200%);
+}
+
+/*Formata as imagens*/
+
+.gallery{
+
+    display: flex;
+
+    flex-flow: row nowrap; /*Força os elementos a ficar na mesma linha, mesmo se der um overflow (ultrapassar o limite da tela)*/
+
+    gap: 15px; /*Dá um espaço entre as imagens*/
+
+}
+
+/* Formata as imagens que não estão current*/
+
+.item{
+
+    width: 100%;
+
+    height: 32em;
+
+    flex-shrink: 0;/*Ele faz o item não fazer o shrink(shrink = diminui o item para ele caber)*/
+
+    opacity: 0.6;
+
+    transition: all 600ms ease-in-out; /*Faz a transição*/
+
+    border-radius: 5px;
+
+}
+
+/*Formata a imagem que tá current*/
+
+.current-item{
+
+    opacity: 1;
+
+   
+
+}
+
+/*Esconde a barra de rolagem no Chrome, Safari and Opera*/
+
+.galerry-wrapper::-webkit-scrollbar {
+
+    display: none;
+
+}
+
+/*Esconde a barra de rolagem no IE, Edge e Firefox*/
+
+.galerry-wrapper{
+
+    -ms-overflow-style: none;  /* IE and Edge */
+
+    scrollbar-width: none;  /* Firefox */
+
+}
+
+.bloco-categorias{
+    width: 100%;
+    height: 22em;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    margin-left: 7.4%;
+}
+.circulo{
+    width: 10em;
+    height: 10em;
+    background-color: rgb(255, 183, 183);
+    border-radius: 100%;
+    margin-left: 1%;
+    margin-top: 1%;
+    position: relative;
+    float: left;
+    
+}
+.circulo img{
+    width: 110%;
+    height: 90%;
+    border-radius: 100%;
+}
+.blococirculo{
+    width: 10%;
+    height: 12em;
+    margin-left: 2%;
+    margin-top: 1%;
+    position: relative;
+    float: left;
+}
+.categorias-texto{
+    position: relative;
+    text-align: center;
+}
+
+/*Noticias*/
+
+.noticias{
+    width: 100%;
+    height: 70em;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    top: 5%;
+}
+.tit-noticias{
+    font-size: 3em;
+    color: rgb(0, 0, 0);
+   
+    margin-left: 19%;
+}
+.noticias-bloco{
+    width: 90%;
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    left: 5%;
+    padding: 0px;
+}
+.bloco1{
+    width: 20%;
+    height: 30%;
+    background-color: rgb(255, 255, 255);
+    float: left;
+    margin-left: 15%;
+    margin-top: 3%;
+
+}
+.bloco1 img{
+    position: relative;
+    width: 100%;
+    height: 80%;
+    float: left;
+}
+.bloco1 p{
+    position: relative;
+    top: 3%;
+}
+.bloco2{
+    width: 20%;
+    height: 30%;
+    background-color: rgb(255, 255, 255);
+    float: left;
+    margin-left: 2%;
+    margin-top: 3%;
+}
+.bloco2 img{
+    position: relative;
+    width: 100%;
+    height: 80%;
+    float: left;
+}
+.bloco2 p{
+    position: relative;
+    top: 3%;
+}
+.bloco3{
+    width: 20%;
+    height: 40%;
+    background-color: rgb(255, 255, 255);
+    float: left;
+    margin-left: 2%;
+    margin-top: 3%;
+}
+.bloco3 img{
+    position: relative;
+    width: 100%;
+    height: 95%;
+    float: left;
+}
+.texto{
+    float: left;
+    margin-left: 10px;
+    margin-top: 3%;
+    width: 10%;
+    color: rgb(80, 73, 73);
+     font-family: 'Frank Ruhl Libre', serif;
+     font-size: 105%;
+}
+.bloco4{
+    width: 20%;
+    height: 13%;
+    background-color: rgb(255, 255, 255);
+    float: left;
+    margin-left: 15%;
+    margin-top: 2%;
+}
+.bloco4 img{
+    position: relative;
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+.bloco4 p{
+    float: left;
+    margin-left: 3%;
+}
+.bloco5{
+    width: 20%;
+    height: 13%;
+    background-color: rgb(255, 255, 255);
+    float: left;
+    margin-left: 2%;
+    margin-top: 2%;
+}
+.bloco5 img{
+    position: relative;
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+.bloco5 p{
+    float: left;
+    margin-left: 3%;
+}
+.bloco6{
+    width: 20%;
+    height: 13%;
+    background-color: rgb(255, 255, 255);
+    float: left;
+    margin-left: 2%;
+    margin-top: 2%;
+}
+.bloco6 img{
+    position: relative;
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+.bloco6 p{
+    float: left;
+    margin-left: 3%;
+}
+.bloco7{
+    width: 20%;
+    height: 13%;
+    background-color: rgb(255, 255, 255);
+    float: left;
+    margin-left: 15%;
+    margin-top: 2%;
+}
+.bloco7 img{
+    position: relative;
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+.bloco7 p{
+    float: left;
+    margin-left: 3%;
+}
+.bloco8{
+    width: 20%;
+    height: 13%;
+    background-color: rgb(255, 255, 255);
+    float: left;
+    margin-left: 2%;
+    margin-top: 2%;
+}
+.bloco8 img{
+    position: relative;
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+.bloco8 p{
+    float: left;
+    margin-left: 3%;
+}
+.bloco9{
+    width: 20%;
+    height: 13%;
+    background-color: rgb(255, 255, 255);
+    float: left;
+    margin-left: 2%;
+    margin-top: 2%;
+}
+.bloco9 img{
+    position: relative;
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+.bloco9 p{
+    float: left;
+    margin-left: 3%;
+}
+.texto_noticias{
+    width: 10%;
+    color: rgb(80, 73, 73);
+     font-family: 'Frank Ruhl Libre', serif;
+     text-decoration: none;
+     font-size: 105%;
+}
+.texto_categorias {
+    height: 120%;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: 'Questrial', sans-serif;
+    color: rgb(80, 73, 73);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 0%;
+}
+
+/*FOOTER*/
+body {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh; /* Isso garante que a página ocupe pelo menos a altura da tela */
+    position: relative;
+
+
+}
+footer{
+    position: relative  ;
+    bottom: 0;
+    width: 100%;
+    height: 9%;
+    background-color:rgb(14, 13, 13);
+    color: white;
+    text-align: center;
+    padding: 18px 0;
+    font-family:'Tenor Sans', sans-serif;
+}
+
+/* Codigos para o futuro */
+
+ /*  -Para dar espaçamento no inicio de um texto
+    p {
+    text-indent: 50px;
+  } 
+*/
+/* -Para deixar um espaço em branco
+  p {
+  white-space: nowrap;
+}
+/*
