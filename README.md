@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./Imagens/logo-s.fundo.png" alt="Logo BlogÉclet" width="200">
+  <img src="./Imagens/logo-s.fundo.png" alt="Logo BlogÉclet" width="250">
 </p>
 
 Projeto desenvolvido para a **BartoTêc 2023** (feira tecnológica da Etec Bartolomeu). Trata-se de um blog de moda com funcionalidades completas de interação, focado na integração entre front-end e back-end.
