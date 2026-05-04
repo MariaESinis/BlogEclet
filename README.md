@@ -1,8 +1,23 @@
-# BlogEclet
+<p align="center">
+  <img src="./Imagens/logo-s.fundo.png" alt="Logo BlogÉclet" width="200">
+</p>
 
-Projeto desenvolvido para a BartoTêc 2023 (feira tecnólogica da Etec Bartolomeu), consistindo em um blog de moda com funcionalidades completas para interação dos usuários. A aplicação foi construída utilizando PHP, JavaScript, SQL, HTML e CSS.
+Projeto desenvolvido para a **BartoTêc 2023** (feira tecnológica da Etec Bartolomeu). Trata-se de um blog de moda com funcionalidades completas de interação, focado na integração entre front-end e back-end.
 
-O sistema permite cadastro e login de usuários, gerenciamento de perfil e acesso a conteúdos relacionados à moda. Além disso, oferece pacotes de planos para consultoria de moda, simulando um ambiente real de serviço online.
+---
 
-O projeto tem como foco a integração entre front-end e back-end, além da aplicação prática de conceitos de desenvolvimento web e banco de dados.
+ # Funcionalidades
 
+- [x] **Sistema de Autenticação:** Cadastro e login de usuários.
+- [x] **Perfil do Usuário:** Gerenciamento de informações pessoais.
+- [x] **Conteúdo Dinâmico:** Acesso a artigos e tendências de moda.
+- [x] **Consultoria Online:** Simulação de venda de pacotes de planos para consultoria de moda.
+
+# Tecnologias Utilizadas
+
+O projeto foi construído utilizando as seguintes tecnologias:
+
+* **Front-end:** HTML5, CSS3 e JavaScript.
+* **Back-end:** PHP.
+* **Banco de Dados:** SQL (MySQL).
+* **Ambiente de Desenvolvimento:** Laragon.
