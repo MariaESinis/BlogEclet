@@ -8,10 +8,10 @@ Projeto desenvolvido para a **BartoTêc 2023** (feira tecnológica da Etec Barto
 
  # Funcionalidades
 
-- [x] **Sistema de Autenticação:** Cadastro e login de usuários.
-- [x] **Perfil do Usuário:** Gerenciamento de informações pessoais.
-- [x] **Conteúdo Dinâmico:** Acesso a artigos e tendências de moda.
-- [x] **Consultoria Online:** Simulação de venda de pacotes de planos para consultoria de moda.
+-  **Sistema de Autenticação:** Cadastro e login de usuários.
+-  **Perfil do Usuário:** Gerenciamento de informações pessoais.
+-  **Conteúdo Dinâmico:** Acesso a artigos e tendências de moda.
+-  **Consultoria Online:** Simulação de venda de pacotes de planos para consultoria de moda.
 
 # Tecnologias Utilizadas
 
