@@ -21,3 +21,45 @@ O projeto foi construído utilizando as seguintes tecnologias:
 * **Back-end:** PHP.
 * **Banco de Dados:** SQL (MySQL).
 * **Ambiente de Desenvolvimento:** Laragon.
+
+## Screenshots
+
+### Interface Principal
+<p align="center">
+  <kbd>
+    <img src="Imagens/tela-home.png" alt="Home" width="600">
+  </kbd>
+  <br><em>Tela Home</em>
+</p>
+
+---
+
+### Navegação e Conteúdo
+<details>
+  <summary>Clique para ver as telas de conteúdo (Estilos, Tecidos, etc.)</summary>
+
+  #### Estilos
+  ![Estilos](Imagens/tela-estilos.png)
+  #### Tecidos
+  ![Tecidos](Imagens/tela-tecidos.png)
+  #### Sustentabilidade
+  ![Sustentabilidade](Imagens/tela-sustentabilidade.png)
+  #### Informações
+  ![Info](Imagens/tela-info.png)
+</details>
+
+### Área do Usuário e Planos
+<details>
+  <summary>Clique para ver Telas de Login, Cadastro e Planos</summary>
+
+  #### Planos de Consultoria
+  ![Planos](Imagens/tela-planos.png)
+  #### Login
+  ![Login](Imagens/tela-login.png)
+  #### Cadastro
+  ![Cadastro](Imagens/tela-cadastro.png)
+  #### Recuperar Senha
+  ![Recuperar Senha](Imagens/tela-recuperar-senha.png)
+  #### Perfil do Usuário
+  ![Perfil](Imagens/tela-perfil.png)
+</details>
